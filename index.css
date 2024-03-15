@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+
+h3 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+.product h2{
+    text-align: left   ;
+}
+
+.phones-section,
+.headphones-section {
+    padding: 20px;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; 
+}
+
+.gradient-background {
+    background: linear-gradient(to bottom, #04630c 50%, #828505 50%);
+    padding: 20px;
+}
+
+.phones-section,
+.headphones-section {
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.product {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.product img {
+    width: 200px; 
+    height: auto; 
+    margin-right: 20px;
+}
+
+.product-details {
+    flex: 1;
+}
+
+.product-details h2 {
+    margin-top: 0;
+}
+
+.product-details p {
+    margin: 5px 0;
+}
+
+.product-details button {
+    margin-top: 10px;
+}
+
+.product img[src="img/celular3.jpg"],
+.product img[src="img/celular2.jpg"],
+.product img[src="img/celular1.jpg"] {
+    width: 250px;
+    height: 300px;
+}
+
+.product img[src="img/fone1.jpg"],
+.product img[src="img/fone2.jpg"],
+.product img[src="img/fone3.jpg"] {
+    width: 230px;
+    height: 250px;
+}
+
+a {
+    color: gray;
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+.footer-table {
+    width: 100%;
+    margin-top: 50px;
+    border-collapse: collapse;
+}
+
+.footer-table td {
+    padding: 2%;
+}
+
+.footer-table td:first-child {
+    text-align: left;
+}
+
+.footer-table td:last-child {
+    text-align: right;
+}
+
+.footer-table td:last-child .contact-button {
+    background-color: #4CAF50;
+    border: none;
+    color: rgb(35, 156, 43);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+h3 {
+    text-align: left;
+}
+
+
+
+.audio-container {
+    position: absolute;
+    bottom: 200px; 
+    right: 30px; 
+}
